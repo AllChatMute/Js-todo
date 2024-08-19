@@ -1,0 +1,50 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+.todo {
+  text-align: center;
+}
+.todo__title {
+  font-size: 60px;
+}
+.todo__input {
+  padding: 10px 40px;
+}
+.todo__input::placeholder {
+  font-size: 20px;
+}
+.todo__btn {
+  padding: 10px 40px;
+}
+.taskList {
+  width: 100%;
+  margin-top: 20px;
+  text-align: left;
+}
+.taskList li {
+  font-size: 20px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.btn-block {
+  display: flex;
+  gap: 5px;
+}
+.todo__li-btn {
+  padding: 0 10px;
+}
+.active {
+  text-decoration: line-through;
+}
